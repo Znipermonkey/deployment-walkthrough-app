@@ -2,7 +2,7 @@ let myButton = document.querySelector('button')
 let myDiv = document.querySelector('div')
 
 myButton.addEventListener('click', () => {
-    axios.get('/cats')
+    axios.get('/cat')
     .then((response) => {
         let catName = response.data
 
